@@ -57,7 +57,7 @@ Below is the initial distribution of atoms, showing the separation between the h
 ### Animation of Temperature Equilibration
 The following video demonstrates the equilibration process over time, with atoms transitioning to a uniform temperature:
 
-[![Equilibration Process]](media/screenrecord.mov)
+![](screenrecord.gif)
 
 
 ---
