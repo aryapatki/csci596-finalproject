@@ -51,13 +51,13 @@ A total of **300 frames** are generated to demonstrate the gradual motion of ato
 ### Initial Atom Distribution
 Below is the initial distribution of atoms, showing the separation between the hot and cold regions:
 
-![Initial Distribution of Atoms](/Users/anisha/Desktop/596 project/csci596-finalproject/inititalatoms.png)
+![Initial Distribution of Atoms](media/inititalatoms.png)
 
 
 ### Animation of Temperature Equilibration
 The following video demonstrates the equilibration process over time, with atoms transitioning to a uniform temperature:
 
-[![Equilibration Process]](/Users/anisha/Desktop/596 project/csci596-finalproject/screenrecord.mov)
+[![Equilibration Process]](media/screenrecord.mov)
 
 
 ---
