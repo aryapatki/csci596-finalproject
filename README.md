@@ -65,9 +65,7 @@ The following video demonstrates the equilibration process over time, with atoms
 ## Key Formulas
 
 1. **Kinetic Energy (KE)**:
-   \[
-   KE = \frac{1}{2} m v^2
-   \]
+   ![Kinetic Energy Formula](media/kinetic_energy_formula.png)
    - `m`: Mass of the atom (assumed constant)
    - `v`: Velocity of the atom (from simulation)
 
