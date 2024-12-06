@@ -70,11 +70,11 @@ The following video demonstrates the equilibration process over time, with atoms
    - `v`: Velocity of the atom (from simulation)
 
 2. **RGB Assignment**:
-   - Colors range from Blue (low KE) to Red (high KE), using linear interpolation: 
+   - Colors range from White (low KE) to Red (high KE), using linear interpolation: 
      $RGB = Map(KE, Min\_KE, Max\_KE, Color\ Gradient)$
 
    - `Min_KE` and `Max_KE` are extracted from the simulation data.
-   - The gradient is divided into 5 color categories: Blue, Cyan, Green, Yellow, and Red.
+   - The gradient is divided into 5 color categories: White, Grey, Blue, Pink, and Red.
 
 ---
 
