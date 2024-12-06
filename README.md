@@ -12,6 +12,30 @@ A total of **300 frames** are generated to demonstrate the gradual motion of ato
 
 ---
 
+## Key Formulas
+
+1. **Kinetic Energy (KE)**: $\frac{1}{2} m v^2$
+
+   - `m`: Mass of the atom (assumed constant)
+   - `v`: Velocity of the atom (from simulation)
+
+2. **RGB Assignment**:
+   - Colors range from White (low KE) to Red (high KE), using linear interpolation: 
+     $RGB = Map(KE, Min\_KE, Max\_KE, Color\ Gradient)$
+
+   - `Min_KE` and `Max_KE` are extracted from the simulation data.
+   - The gradient is divided into 5 color categories: White, Grey, Blue, Pink, and Red.
+
+---
+
+## Tools and Technologies
+
+- **LAMMPS** for Molecular Dynamics Simulation
+- **Python** for data processing and file format conversions
+- **VMD (Visual Molecular Dynamics)** for visualization
+
+---
+
 ## Workflow
 
 1. **Run `input_script.lmp`**:
@@ -38,14 +62,6 @@ A total of **300 frames** are generated to demonstrate the gradual motion of ato
 
 ---
 
-## Tools and Technologies
-
-- **LAMMPS** for Molecular Dynamics Simulation
-- **Python** for data processing and file format conversions
-- **VMD (Visual Molecular Dynamics)** for visualization
-
----
-
 ## Results
 
 ### Initial Atom Distribution
@@ -59,22 +75,6 @@ The following video demonstrates the equilibration process over time, with atoms
 
 ![](screenrecord.gif)
 
-
----
-
-## Key Formulas
-
-1. **Kinetic Energy (KE)**: $\frac{1}{2} m v^2$
-
-   - `m`: Mass of the atom (assumed constant)
-   - `v`: Velocity of the atom (from simulation)
-
-2. **RGB Assignment**:
-   - Colors range from White (low KE) to Red (high KE), using linear interpolation: 
-     $RGB = Map(KE, Min\_KE, Max\_KE, Color\ Gradient)$
-
-   - `Min_KE` and `Max_KE` are extracted from the simulation data.
-   - The gradient is divided into 5 color categories: White, Grey, Blue, Pink, and Red.
 
 ---
 
